@@ -14,6 +14,22 @@ While AI models can analyze respiratory data effectively, many systems lack affo
 
 ## System Architecture
 ![System Block Diagram](system_block_diagram.png)
+## Block-Level Explanation
+
+### 1. Mouthpiece / Mask
+Captures airflow during inhalation and exhalation and channels it through tubing to the differential pressure sensor.
+
+### 2. Differential Pressure Sensor (MPXV7002DP)
+Measures the pressure difference created by airflow. The output is a small analog voltage proportional to breath intensity.
+
+### 3. Instrumentation Amplifier (INA333 / AD623)
+Amplifies the low-level differential signal from the sensor while rejecting common-mode noise.
+
+### 4. ADS1115 (16-bit ADC)
+Converts the amplified analog signal into high-resolution digital data for accurate breath waveform capture.
+
+### 5. ESP32
+Processes digital data, performs filtering and respiratory rate calculation, and transmits data via WiFi or serial interface.
 
 ## Hardware Components
 (To be updated)
