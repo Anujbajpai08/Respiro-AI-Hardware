@@ -13,7 +13,7 @@ While AI models can analyze respiratory data effectively, many systems lack affo
 - Enable future AI integration
 
 ## System Architecture
-(Block diagram will be added here)
+![System Block Diagram](system_block_diagram.png)
 
 ## Hardware Components
 (To be updated)
