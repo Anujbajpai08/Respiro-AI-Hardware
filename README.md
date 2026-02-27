@@ -36,10 +36,10 @@ Processes digital data, performs filtering and respiratory rate calculation, and
 
 | Component | Selected | Purchased | Tested |
 |------------|----------|------------|--------|
-| ESP32 DevKit | Yes | No | No |
-| MPXV7002DP | Yes | No | No |
-| INA333 / AD623 | Yes | No | No |
-| ADS1115 | Yes | No | No |
+| ESP32 DevKit | Yes | yes | yes |
+| MPXV7002DP | Yes | yes | yes |
+| INA333 / AD623 | Yes | yes | yes |
+| ADS1115 | Yes | yes | yes |
 
 ## My Contribution
 - Participated in AI system conceptual discussions
